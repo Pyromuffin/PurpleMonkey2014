@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: fbfbb7e40487d084999e7c0a96caf1b0
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: escenario_Null_1 Disc
+    100002: //RootNode
+    100004: lentes_Extrude_NURBS
+    100006: lentes_Extrude_NURBS Rounding_11
+    100008: lentes_Extrude_NURBS Rounding_11 Cap_11
+    100010: lentes_Extrude_NURBS Rounding_21
+    100012: lentes_Extrude_NURBS Rounding_21 Cap_21
+    100014: lentes_Extrude_NURBS_2
+    100016: lentes_Extrude_NURBS_2 Rounding_12
+    100018: lentes_Extrude_NURBS_2 Rounding_12 Cap_12
+    100020: lentes_Extrude_NURBS_2 Rounding_22
+    100022: lentes_Extrude_NURBS_2 Rounding_22 Cap_22
+    100024: lentes_Symmetry Extrude_NURBS_1 Extrude_NURBS_11
+    100026: lentes_Symmetry Extrude_NURBS_1 Rounding_1
+    100028: lentes_Symmetry Extrude_NURBS_1 Rounding_1 Cap_1
+    100030: lentes_Symmetry Extrude_NURBS_1 Rounding_2
+    100032: lentes_Symmetry Extrude_NURBS_1 Rounding_2 Cap_2
+    400000: escenario_Null_1 Disc
+    400002: //RootNode
+    400004: lentes_Extrude_NURBS
+    400006: lentes_Extrude_NURBS Rounding_11
+    400008: lentes_Extrude_NURBS Rounding_11 Cap_11
+    400010: lentes_Extrude_NURBS Rounding_21
+    400012: lentes_Extrude_NURBS Rounding_21 Cap_21
+    400014: lentes_Extrude_NURBS_2
+    400016: lentes_Extrude_NURBS_2 Rounding_12
+    400018: lentes_Extrude_NURBS_2 Rounding_12 Cap_12
+    400020: lentes_Extrude_NURBS_2 Rounding_22
+    400022: lentes_Extrude_NURBS_2 Rounding_22 Cap_22
+    400024: lentes_Symmetry Extrude_NURBS_1 Extrude_NURBS_11
+    400026: lentes_Symmetry Extrude_NURBS_1 Rounding_1
+    400028: lentes_Symmetry Extrude_NURBS_1 Rounding_1 Cap_1
+    400030: lentes_Symmetry Extrude_NURBS_1 Rounding_2
+    400032: lentes_Symmetry Extrude_NURBS_1 Rounding_2 Cap_2
+    2300000: escenario_Null_1 Disc
+    2300002: lentes_Extrude_NURBS
+    2300004: lentes_Extrude_NURBS Rounding_11
+    2300006: lentes_Extrude_NURBS Rounding_11 Cap_11
+    2300008: lentes_Extrude_NURBS Rounding_21
+    2300010: lentes_Extrude_NURBS Rounding_21 Cap_21
+    2300012: lentes_Extrude_NURBS_2
+    2300014: lentes_Extrude_NURBS_2 Rounding_12
+    2300016: lentes_Extrude_NURBS_2 Rounding_12 Cap_12
+    2300018: lentes_Extrude_NURBS_2 Rounding_22
+    2300020: lentes_Extrude_NURBS_2 Rounding_22 Cap_22
+    2300022: lentes_Symmetry Extrude_NURBS_1 Extrude_NURBS_11
+    2300024: lentes_Symmetry Extrude_NURBS_1 Rounding_1
+    2300026: lentes_Symmetry Extrude_NURBS_1 Rounding_1 Cap_1
+    2300028: lentes_Symmetry Extrude_NURBS_1 Rounding_2
+    2300030: lentes_Symmetry Extrude_NURBS_1 Rounding_2 Cap_2
+    3300000: escenario_Null_1 Disc
+    3300002: lentes_Extrude_NURBS
+    3300004: lentes_Extrude_NURBS Rounding_11
+    3300006: lentes_Extrude_NURBS Rounding_11 Cap_11
+    3300008: lentes_Extrude_NURBS Rounding_21
+    3300010: lentes_Extrude_NURBS Rounding_21 Cap_21
+    3300012: lentes_Extrude_NURBS_2
+    3300014: lentes_Extrude_NURBS_2 Rounding_12
+    3300016: lentes_Extrude_NURBS_2 Rounding_12 Cap_12
+    3300018: lentes_Extrude_NURBS_2 Rounding_22
+    3300020: lentes_Extrude_NURBS_2 Rounding_22 Cap_22
+    3300022: lentes_Symmetry Extrude_NURBS_1 Extrude_NURBS_11
+    3300024: lentes_Symmetry Extrude_NURBS_1 Rounding_1
+    3300026: lentes_Symmetry Extrude_NURBS_1 Rounding_1 Cap_1
+    3300028: lentes_Symmetry Extrude_NURBS_1 Rounding_2
+    3300030: lentes_Symmetry Extrude_NURBS_1 Rounding_2 Cap_2
+    4300000: escenario_Null_1 Disc
+    4300002: lentes_Extrude_NURBS
+    4300004: lentes_Extrude_NURBS Rounding_11
+    4300006: lentes_Extrude_NURBS Rounding_11 Cap_11
+    4300008: lentes_Extrude_NURBS Rounding_21
+    4300010: lentes_Extrude_NURBS Rounding_21 Cap_21
+    4300012: lentes_Extrude_NURBS_2
+    4300014: lentes_Extrude_NURBS_2 Rounding_12
+    4300016: lentes_Extrude_NURBS_2 Rounding_12 Cap_12
+    4300018: lentes_Extrude_NURBS_2 Rounding_22
+    4300020: lentes_Extrude_NURBS_2 Rounding_22 Cap_22
+    4300022: lentes_Symmetry Extrude_NURBS_1 Extrude_NURBS_11
+    4300024: lentes_Symmetry Extrude_NURBS_1 Rounding_1
+    4300026: lentes_Symmetry Extrude_NURBS_1 Rounding_1 Cap_1
+    4300028: lentes_Symmetry Extrude_NURBS_1 Rounding_2
+    4300030: lentes_Symmetry Extrude_NURBS_1 Rounding_2 Cap_2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
