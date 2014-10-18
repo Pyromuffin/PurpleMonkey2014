@@ -31,6 +31,7 @@ public class HairAdder : MonoBehaviour {
                 hairPoint = hitInfo.point;
                 normal = hitInfo.normal;
                 currentHair = Instantiate(hairPrefab) as GameObject;
+                currentHair.transform.parent = transform;
                 currentHair.transform.localScale = new Vector3(Random.Range(minWidth, maxWidth), Random.Range(minLength, maxLength), 1);
             }
             return;
@@ -41,6 +42,7 @@ public class HairAdder : MonoBehaviour {
         {
             sprayTimer = 0;
             currentHair = Instantiate(hairPrefab) as GameObject;
+            currentHair.transform.parent = transform;
             currentHair.transform.localScale = new Vector3(Random.Range(minWidth, maxWidth), Random.Range(minLength, maxLength), 1);
         }
 
