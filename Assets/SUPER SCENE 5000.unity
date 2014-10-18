@@ -487,6 +487,12 @@ MonoBehaviour:
   headMask:
     serializedVersion: 2
     m_Bits: 256
+  maxLength: .300000012
+  minLength: .100000001
+  maxWidth: .0500000007
+  minWidth: .00999999978
+  sprayTimer: 0
+  sprayInterval: .0299999993
 --- !u!1 &785607404
 GameObject:
   m_ObjectHideFlags: 0

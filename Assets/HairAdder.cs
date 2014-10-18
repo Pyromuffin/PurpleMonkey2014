@@ -9,6 +9,9 @@ public class HairAdder : MonoBehaviour {
     public Vector3 normal;
     public GameObject currentHair;
     public LayerMask headMask;
+    public float maxLength, minLength;
+    public float maxWidth, minWidth;
+    public float sprayTimer, sprayInterval;
 
 	// Use this for initialization
 	void Start () {
@@ -28,9 +31,19 @@ public class HairAdder : MonoBehaviour {
                 hairPoint = hitInfo.point;
                 normal = hitInfo.normal;
                 currentHair = Instantiate(hairPrefab) as GameObject;
+                currentHair.transform.localScale = new Vector3(Random.Range(minWidth, maxWidth), Random.Range(minLength, maxLength), 1);
             }
             return;
         }
+
+
+        if (Input.GetMouseButton(0) && hairPutting && sprayTimer > sprayInterval)
+        {
+            sprayTimer = 0;
+            currentHair = Instantiate(hairPrefab) as GameObject;
+            currentHair.transform.localScale = new Vector3(Random.Range(minWidth, maxWidth), Random.Range(minLength, maxLength), 1);
+        }
+
 
         if (hairPutting)
         {
@@ -45,7 +58,7 @@ public class HairAdder : MonoBehaviour {
                 currentHair.transform.forward = -normal;
             }
 
-            
+            sprayTimer += Time.deltaTime;   
         }
 
         if (Input.GetMouseButtonUp(0))
