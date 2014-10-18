@@ -3,7 +3,6 @@ using System.Collections;
 
 public class s_hairTapeStick : MonoBehaviour {
 
-	public Collider thing;
 	// Use this for initialization
 	void Start () {
 
@@ -11,7 +10,7 @@ public class s_hairTapeStick : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+
 	}
 
 	void OnCollisionEnter (Collision col)
@@ -20,9 +19,4 @@ public class s_hairTapeStick : MonoBehaviour {
 		rigidbody.isKinematic = true;
 	}
 
-//	void OnTriggerEnter(Collider other) {
-		//Debug.LogError("triggered");
-//		Debug.LogWarning ("triggered");
-
-	//}
 }
