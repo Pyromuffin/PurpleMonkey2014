@@ -367,6 +367,7 @@ GameObject:
   - 92: {fileID: 757348196}
   - 124: {fileID: 757348195}
   - 81: {fileID: 757348194}
+  - 114: {fileID: 757348199}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -439,6 +440,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!114 &757348199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 757348193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b4a311a7c5df2c46b220afbb67c9094, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1406629094}
+  swivelSpeed: 5
 --- !u!1 &779308857
 GameObject:
   m_ObjectHideFlags: 0
@@ -720,6 +734,7 @@ GameObject:
   - 4: {fileID: 1256036410}
   - 33: {fileID: 1256036412}
   - 23: {fileID: 1256036411}
+  - 64: {fileID: 1256036413}
   m_Layer: 8
   m_Name: Group19
   m_TagString: Untagged
@@ -767,6 +782,19 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 1997014922}
   m_GameObject: {fileID: 1256036409}
+  m_Mesh: {fileID: 4300004, guid: 8a780fd7162e49d4f8e69c1e0c003785, type: 3}
+--- !u!64 &1256036413
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1256036409}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300004, guid: 8a780fd7162e49d4f8e69c1e0c003785, type: 3}
 --- !u!1 &1405048518
 GameObject:
@@ -890,6 +918,7 @@ GameObject:
   - 4: {fileID: 1514855713}
   - 33: {fileID: 1514855715}
   - 23: {fileID: 1514855714}
+  - 64: {fileID: 1514855716}
   m_Layer: 8
   m_Name: Group14
   m_TagString: Untagged
@@ -937,6 +966,19 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 1997014922}
   m_GameObject: {fileID: 1514855712}
+  m_Mesh: {fileID: 4300002, guid: 8a780fd7162e49d4f8e69c1e0c003785, type: 3}
+--- !u!64 &1514855716
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1514855712}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300002, guid: 8a780fd7162e49d4f8e69c1e0c003785, type: 3}
 --- !u!1 &1518509567
 GameObject:
