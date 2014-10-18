@@ -448,6 +448,33 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1997014922}
   m_GameObject: {fileID: 852685515}
   m_Mesh: {fileID: 4300010, guid: 8a780fd7162e49d4f8e69c1e0c003785, type: 3}
+--- !u!1 &917278136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 917278137}
+  m_Layer: 0
+  m_Name: hairTape
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &917278137
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 917278136}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.684108973, y: -2.11723685, z: -3.34397888}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
 --- !u!1 &1256036409
 GameObject:
   m_ObjectHideFlags: 0
