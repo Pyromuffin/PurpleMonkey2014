@@ -69,7 +69,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a57d4440ac8e6dd43a0ea926e0336c8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toupe: {fileID: 0}
+  toupe: {fileID: 100004, guid: 82b34b80fb15c2247bf0c9fb644b5e11, type: 2}
   speed: 10
   headMask:
     serializedVersion: 2
