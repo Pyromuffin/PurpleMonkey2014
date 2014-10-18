@@ -31,6 +31,9 @@ public class HairAdder : MonoBehaviour {
                 hairPoint = hitInfo.point;
                 normal = hitInfo.normal;
                 currentHair = Instantiate(hairPrefab) as GameObject;
+                currentHair.layer = LayerMask.NameToLayer("Hairs");
+                currentHair.transform.GetChild(0).gameObject.layer = LayerMask.NameToLayer("Hairs");
+
                 currentHair.transform.parent = transform;
                 currentHair.transform.localScale = new Vector3(Random.Range(minWidth, maxWidth), Random.Range(minLength, maxLength), 1);
             }
@@ -42,8 +45,11 @@ public class HairAdder : MonoBehaviour {
         {
             sprayTimer = 0;
             currentHair = Instantiate(hairPrefab) as GameObject;
+            currentHair.layer = LayerMask.NameToLayer("Hairs");
+            currentHair.transform.GetChild(0).gameObject.layer = LayerMask.NameToLayer("Hairs");
             currentHair.transform.parent = transform;
             currentHair.transform.localScale = new Vector3(Random.Range(minWidth, maxWidth), Random.Range(minLength, maxLength), 1);
+          
         }
 
 
@@ -53,6 +59,8 @@ public class HairAdder : MonoBehaviour {
 
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hitInfo, 10000, headMask))
             {
+                //Debug.Log(Input.mousePosition);
+
                 hairPoint = hitInfo.point;
                 normal = hitInfo.normal;
 
