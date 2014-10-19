@@ -13,11 +13,11 @@ public class HairRemover : MonoBehaviour {
 
     public void Start()
     {
-        Balden();
+        StartCoroutine(Balden());
     }
 
 	// Use this for initialization
-	public void Balden () {
+	public IEnumerator Balden () {
 	
         //create random point on sphere. cast toward center, if hit, then sphere overlap and destroy
 
@@ -39,7 +39,12 @@ public class HairRemover : MonoBehaviour {
         foreach (var hair in hairs)
         {
             Destroy(hair.transform.gameObject);
-        } 
+        }
+
+        yield return null;
+        var coverage =  FindObjectOfType<CoverageCalculator>();
+        coverage.baldVertices = coverage.baldVertexCount();
+        Debug.Log("bald verts " + coverage.baldVertices);
 
 	}
 	
