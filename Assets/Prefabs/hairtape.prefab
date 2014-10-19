@@ -265,6 +265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c84a27762ad801b47998314e8ce14508, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stickSound: {fileID: 8300000, guid: 9cca5c88b090af645bf59c5c33251ebc, type: 3}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -276,6 +277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c84a27762ad801b47998314e8ce14508, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stickSound: {fileID: 8300000, guid: 9cca5c88b090af645bf59c5c33251ebc, type: 3}
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -287,6 +289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c84a27762ad801b47998314e8ce14508, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stickSound: {fileID: 8300000, guid: 9cca5c88b090af645bf59c5c33251ebc, type: 3}
 --- !u!135 &13500000
 SphereCollider:
   m_ObjectHideFlags: 1
