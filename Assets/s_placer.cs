@@ -4,7 +4,7 @@ using System.Collections;
 public class s_placer : MonoBehaviour {
 
 	public GameObject toupe;
-	public float speed =5;
+	public float speed =1;
 	public LayerMask headMask;
 	public AudioClip shootSound;
 	// Use this for initialization
@@ -35,7 +35,7 @@ public class s_placer : MonoBehaviour {
 			transform.TransformDirection(new Vector3(0,0,0));
 			foreach (Rigidbody rb in instantiatedToupe.GetComponentsInChildren<Rigidbody>()) {
 //				rb.velocity = transform.TransformDirection(new Vector3(direction.x,direction.y,direction.z + speed));
-				rb.velocity = direction*speed;
+				rb.velocity = (direction + Vector3.up)*speed;
 			}
 			audio.PlayOneShot(shootSound);
 //			instantiatedToupe.rigidbody.velocity = transform.TransformDirection(new Vector3(0,0,0));
