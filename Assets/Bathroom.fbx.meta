@@ -65,6 +65,8 @@ ModelImporter:
     100118: Mesh28
     100120: Mesh29
     100122: skpB29_1
+    100124: Group22
+    100126: Mesh30
     400000: //RootNode
     400002: Drain_Stopper_Hook1
     400004: Faucet_Part1
@@ -127,6 +129,8 @@ ModelImporter:
     400118: Mesh28
     400120: Mesh29
     400122: skpB29_1
+    400124: Group22
+    400126: Mesh30
     2300000: Mesh1
     2300002: Mesh10
     2300004: Mesh11
@@ -156,6 +160,7 @@ ModelImporter:
     2300052: Mesh27
     2300054: Mesh28
     2300056: Mesh29
+    2300058: Mesh30
     3300000: Mesh1
     3300002: Mesh10
     3300004: Mesh11
@@ -185,6 +190,7 @@ ModelImporter:
     3300052: Mesh27
     3300054: Mesh28
     3300056: Mesh29
+    3300058: Mesh30
     4300000: Mesh1
     4300002: Mesh2
     4300004: Mesh3
@@ -214,6 +220,7 @@ ModelImporter:
     4300052: Mesh27
     4300054: Mesh28
     4300056: Mesh29
+    4300058: Mesh30
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -234,7 +241,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 10
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
