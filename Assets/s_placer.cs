@@ -4,7 +4,7 @@ using System.Collections;
 public class s_placer : MonoBehaviour {
 
 	public GameObject toupe;
-	public float speed =1;
+	public float speed =5;
 	public LayerMask headMask;
 	public AudioClip shootSound;
 	// Use this for initialization
@@ -14,7 +14,7 @@ public class s_placer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetMouseButtonDown(0))
+		if (Input.GetMouseButtonDown(0) && !SceneState.instance.stylingMode)
 		{
 			RaycastHit hitInfo;
 			Vector3 origin = Camera.main.ScreenPointToRay(Input.mousePosition).origin;
@@ -30,12 +30,14 @@ public class s_placer : MonoBehaviour {
 //			}
 			GameObject instantiatedToupe = Instantiate (toupe,
 			                                           origin,
-			                                           transform.rotation)
+			                                           Camera.main.transform.rotation)
 				as GameObject;
-			transform.TransformDirection(new Vector3(0,0,0));
+
+
+            instantiatedToupe.transform.forward = direction;
 			foreach (Rigidbody rb in instantiatedToupe.GetComponentsInChildren<Rigidbody>()) {
 //				rb.velocity = transform.TransformDirection(new Vector3(direction.x,direction.y,direction.z + speed));
-				rb.velocity = (direction + Vector3.up)*speed;
+				rb.velocity = (direction + Vector3.up )*speed;
 			}
 			audio.PlayOneShot(shootSound);
 //			instantiatedToupe.rigidbody.velocity = transform.TransformDirection(new Vector3(0,0,0));
