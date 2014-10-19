@@ -10,7 +10,7 @@ public class CoverageCalculator : MonoBehaviour {
     List<int> indices = new List<int>();
     List<int> baldSpotIndices = new List<int>();
     bool first = true;
-    public GameObject shameHolder, fateHolder;
+    public GameObject shameHolder, fateHolder, DoOverHolder;
     public Text percent;
     public Text shamePhrase;
     public int baldVertices;
@@ -122,6 +122,7 @@ public class CoverageCalculator : MonoBehaviour {
         percent.text = Mathf.Floor(( (1-ratio) * 100)).ToString() + "%";
         shamePhrase.gameObject.SetActive(true);
         shamePhrase.text = fates[Random.Range(0, fates.Length)];
+        DoOverHolder.SetActive(true);
         StartCoroutine(blinkThatText());
         audio.PlayOneShot(crying, 3);
 

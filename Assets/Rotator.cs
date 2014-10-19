@@ -9,7 +9,9 @@ public class Rotator : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+
+        transform.LookAt(target.transform);
+        transform.position = target.transform.position - transform.forward * distance;
 	}
 	
 	// Update is called once per frame
