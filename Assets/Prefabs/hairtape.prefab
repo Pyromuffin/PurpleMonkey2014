@@ -35,7 +35,6 @@ GameObject:
   - 114: {fileID: 11400002}
   - 54: {fileID: 5400002}
   - 82: {fileID: 8200000}
-  - 138: {fileID: 13800000}
   m_Layer: 10
   m_Name: Sticker1
   m_TagString: Untagged
@@ -74,6 +73,8 @@ GameObject:
   - 114: {fileID: 11400004}
   - 54: {fileID: 5400004}
   - 82: {fileID: 8200004}
+  - 138: {fileID: 13800002}
+  - 138: {fileID: 13800000}
   m_Layer: 10
   m_Name: Sticker3
   m_TagString: Untagged
@@ -112,7 +113,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.3352776, y: 1.05434418, z: 7.29292059}
+  m_LocalPosition: {x: 3.61680007, y: -1.72189999, z: -.627730012}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400000}
@@ -127,7 +128,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0, z: -.100000702}
+  m_LocalPosition: {x: 0, y: 0, z: -.400000006}
   m_LocalScale: {x: .100000001, y: .100000001, z: .100000001}
   m_Children: []
   m_Father: {fileID: 400004}
@@ -509,7 +510,17 @@ FixedJoint:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100002}
+  m_GameObject: {fileID: 100006}
+  m_ConnectedBody: {fileID: 5400002}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+--- !u!138 &13800002
+FixedJoint:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
   m_ConnectedBody: {fileID: 5400000}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -542,6 +553,9 @@ InteractiveCloth:
     m_TwoWayInteraction: 1
     m_Tearable: 0
   - m_Collider: {fileID: 13500000}
+    m_TwoWayInteraction: 1
+    m_Tearable: 0
+  - m_Collider: {fileID: 13500004}
     m_TwoWayInteraction: 1
     m_Tearable: 0
 --- !u!161 &16100000

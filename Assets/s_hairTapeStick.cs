@@ -17,7 +17,7 @@ public class s_hairTapeStick : MonoBehaviour {
 	void OnCollisionEnter (Collision col)
 	{
 		//Debug.LogError("collided");
-		rigidbody.isKinematic = true;
+        rigidbody.constraints = RigidbodyConstraints.FreezePosition;
 		audio.PlayOneShot(stickSound);
 	}
 
