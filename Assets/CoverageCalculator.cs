@@ -16,6 +16,7 @@ public class CoverageCalculator : MonoBehaviour {
     public int baldVertices;
     public float blinkTime;
     string[] fates = new string[] { "Don't go outside today.", "Nice... try.", "meh.", "You're not fooling anyone with that", "Hat weather.", "At least your mom still likes you.", "Distressing!" };
+    public AudioClip crying;
 
     void Start()
     {
@@ -118,10 +119,11 @@ public class CoverageCalculator : MonoBehaviour {
         var ratio = (float)baldSpotIndices.Count / (float)baldVertices;
         shameHolder.SetActive(true);
         fateHolder.SetActive(true);
-        percent.text = ( (1-ratio) * 100).ToString() + "%";
+        percent.text = Mathf.Floor(( (1-ratio) * 100)).ToString() + "%";
         shamePhrase.gameObject.SetActive(true);
         shamePhrase.text = fates[Random.Range(0, fates.Length)];
         StartCoroutine(blinkThatText());
+        audio.PlayOneShot(crying, 3);
 
     }
 
