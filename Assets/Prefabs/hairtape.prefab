@@ -234,14 +234,14 @@ InteractiveCloth:
   m_Enabled: 1
   m_BendingStiffness: 0
   m_StretchingStiffness: 1
-  m_Damping: 1
+  m_Damping: .439999998
   m_Thickness: .0500000007
   m_UseGravity: 1
-  m_SelfCollision: 0
+  m_SelfCollision: 1
   m_ExternalAcceleration: {x: 0, y: 0, z: 0}
   m_RandomAcceleration: {x: 0, y: 0, z: 0}
   m_Mesh: {fileID: 4300000, guid: dbaaec3b51b2f9847ae9968f9a870b5a, type: 3}
-  m_Friction: 1
+  m_Friction: .300000012
   m_Density: 1
   m_Pressure: 0
   m_CollisionResponse: 1
@@ -267,7 +267,7 @@ ClothRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 4abad3c7eb228c14885d41dd05b2cd0c, type: 2}
+  - {fileID: 2100000, guid: ac921720c2b614d448e9a0556f4406d6, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0

@@ -29,9 +29,11 @@ public class s_placer : MonoBehaviour {
 //			}
 			GameObject instantiatedToupe = Instantiate (toupe,
 			                                           origin,
-			                                           transform.rotation)
+			                                           Camera.main.transform.rotation)
 				as GameObject;
-			transform.TransformDirection(new Vector3(0,0,0));
+
+
+            instantiatedToupe.transform.forward = direction;
 			foreach (Rigidbody rb in instantiatedToupe.GetComponentsInChildren<Rigidbody>()) {
 //				rb.velocity = transform.TransformDirection(new Vector3(direction.x,direction.y,direction.z + speed));
 				rb.velocity = direction*speed;
