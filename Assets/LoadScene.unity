@@ -234,14 +234,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 120449782}
         m_MethodName: changeScene
-        m_Mode: 3
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
             Culture=neutral, PublicKeyToken=null
-          m_IntArgument: 2
+          m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Bathroom
           m_BoolArgument: 0
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -491,7 +491,7 @@ GameObject:
   - 222: {fileID: 1031337727}
   - 114: {fileID: 1031337726}
   m_Layer: 5
-  m_Name: RawImage
+  m_Name: TitleText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -709,7 +709,7 @@ MonoBehaviour:
             Culture=neutral, PublicKeyToken=null
           m_IntArgument: 1
           m_FloatArgument: 0
-          m_StringArgument: '"Cool Bathroom and giving up"'
+          m_StringArgument: Cool Bathroom and giving up
           m_BoolArgument: 0
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -816,7 +816,7 @@ GameObject:
   - 222: {fileID: 1931352108}
   - 114: {fileID: 1931352107}
   m_Layer: 5
-  m_Name: RawImage
+  m_Name: FaceBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
