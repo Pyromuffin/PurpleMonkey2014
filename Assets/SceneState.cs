@@ -44,7 +44,7 @@ public class SceneState : MonoBehaviour {
 
     public  void restart()
     {
-
+        Application.LoadLevel(0);
     }
 
     public  void giveUp()
