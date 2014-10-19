@@ -17,7 +17,8 @@ public class SceneState : MonoBehaviour {
 
     void Start()
     {
-       // hair.SetColor()
+        //hair.SetColor("_Color", new Color(Random.value, Random.value, Random.value, .5f));
+        //toupee.SetColor("_Color", new Color(Random.value, Random.value, Random.value));
     }
 
     public  void restart()

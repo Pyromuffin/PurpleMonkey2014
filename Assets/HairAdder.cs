@@ -27,7 +27,7 @@ public class HairAdder : MonoBehaviour {
             return;
         }
 
-        if (Input.GetMouseButtonDown(2))
+        if (Input.GetMouseButtonDown(1))
         {
             RaycastHit hitInfo;
 
@@ -37,7 +37,16 @@ public class HairAdder : MonoBehaviour {
                 var hairs = Physics.OverlapSphere(hairPoint, deletionRadius, hairMask);
                 foreach (var hair in hairs)
                 {
-                    Destroy(hair.transform.gameObject);
+
+                    if (hair.tag == "Sticker")
+                    {
+                        Destroy(hair.transform.parent.gameObject);
+                    }
+                    else
+                    {
+                        Destroy(hair.transform.gameObject);
+
+                    }
                 }
             }
         }
