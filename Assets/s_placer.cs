@@ -16,7 +16,7 @@ public class s_placer : MonoBehaviour {
 	void Update () {
 		if (Input.GetMouseButtonDown(0) && !SceneState.instance.stylingMode)
 		{
-			RaycastHit hitInfo;
+//			RaycastHit hitInfo;
 			Vector3 origin = Camera.main.ScreenPointToRay(Input.mousePosition).origin;
 			Vector3 direction = Camera.main.ScreenPointToRay(Input.mousePosition).direction;
 
