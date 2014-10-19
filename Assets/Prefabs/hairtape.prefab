@@ -17,7 +17,7 @@ GameObject:
   - 138: {fileID: 13800000}
   m_Layer: 10
   m_Name: Sticker2
-  m_TagString: Untagged
+  m_TagString: Sticker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38,7 +38,7 @@ GameObject:
   - 82: {fileID: 8200002}
   m_Layer: 10
   m_Name: Sticker1
-  m_TagString: Untagged
+  m_TagString: Sticker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78,7 +78,7 @@ GameObject:
   - 138: {fileID: 13800004}
   m_Layer: 10
   m_Name: Sticker3
-  m_TagString: Untagged
+  m_TagString: Sticker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -566,6 +566,9 @@ InteractiveCloth:
   - m_Collider: {fileID: 13500000}
     m_TwoWayInteraction: 1
     m_Tearable: 0
+  - m_Collider: {fileID: 13500004}
+    m_TwoWayInteraction: 1
+    m_Tearable: 0
 --- !u!161 &16100000
 ClothRenderer:
   m_ObjectHideFlags: 1
@@ -578,7 +581,7 @@ ClothRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 4abad3c7eb228c14885d41dd05b2cd0c, type: 2}
+  - {fileID: 2100000, guid: ac921720c2b614d448e9a0556f4406d6, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
