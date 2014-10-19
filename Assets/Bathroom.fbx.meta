@@ -30,6 +30,41 @@ ModelImporter:
     100048: Mesh7
     100050: Mesh8
     100052: Mesh9
+    100054: Group7
+    100056: Group8
+    100058: Mesh14
+    100060: Mesh15
+    100062: Component_1_1
+    100064: Component_1_2
+    100066: G_402375_1
+    100068: Group10
+    100070: Group11
+    100072: Group12
+    100074: Group13
+    100076: Group14
+    100078: Group15
+    100080: Group16
+    100082: Group17
+    100084: Group18
+    100086: Group19
+    100088: Group20
+    100090: Group21
+    100092: Group9
+    100094: Mesh16
+    100096: Mesh17
+    100098: Mesh18
+    100100: Mesh19
+    100102: Mesh20
+    100104: Mesh21
+    100106: Mesh22
+    100108: Mesh23
+    100110: Mesh24
+    100112: Mesh25
+    100114: Mesh26
+    100116: Mesh27
+    100118: Mesh28
+    100120: Mesh29
+    100122: skpB29_1
     400000: //RootNode
     400002: Drain_Stopper_Hook1
     400004: Faucet_Part1
@@ -57,6 +92,41 @@ ModelImporter:
     400048: Mesh7
     400050: Mesh8
     400052: Mesh9
+    400054: Group7
+    400056: Group8
+    400058: Mesh14
+    400060: Mesh15
+    400062: Component_1_1
+    400064: Component_1_2
+    400066: G_402375_1
+    400068: Group10
+    400070: Group11
+    400072: Group12
+    400074: Group13
+    400076: Group14
+    400078: Group15
+    400080: Group16
+    400082: Group17
+    400084: Group18
+    400086: Group19
+    400088: Group20
+    400090: Group21
+    400092: Group9
+    400094: Mesh16
+    400096: Mesh17
+    400098: Mesh18
+    400100: Mesh19
+    400102: Mesh20
+    400104: Mesh21
+    400106: Mesh22
+    400108: Mesh23
+    400110: Mesh24
+    400112: Mesh25
+    400114: Mesh26
+    400116: Mesh27
+    400118: Mesh28
+    400120: Mesh29
+    400122: skpB29_1
     2300000: Mesh1
     2300002: Mesh10
     2300004: Mesh11
@@ -70,6 +140,22 @@ ModelImporter:
     2300020: Mesh7
     2300022: Mesh8
     2300024: Mesh9
+    2300026: Mesh14
+    2300028: Mesh15
+    2300030: Mesh16
+    2300032: Mesh17
+    2300034: Mesh18
+    2300036: Mesh19
+    2300038: Mesh20
+    2300040: Mesh21
+    2300042: Mesh22
+    2300044: Mesh23
+    2300046: Mesh24
+    2300048: Mesh25
+    2300050: Mesh26
+    2300052: Mesh27
+    2300054: Mesh28
+    2300056: Mesh29
     3300000: Mesh1
     3300002: Mesh10
     3300004: Mesh11
@@ -83,6 +169,22 @@ ModelImporter:
     3300020: Mesh7
     3300022: Mesh8
     3300024: Mesh9
+    3300026: Mesh14
+    3300028: Mesh15
+    3300030: Mesh16
+    3300032: Mesh17
+    3300034: Mesh18
+    3300036: Mesh19
+    3300038: Mesh20
+    3300040: Mesh21
+    3300042: Mesh22
+    3300044: Mesh23
+    3300046: Mesh24
+    3300048: Mesh25
+    3300050: Mesh26
+    3300052: Mesh27
+    3300054: Mesh28
+    3300056: Mesh29
     4300000: Mesh1
     4300002: Mesh2
     4300004: Mesh3
@@ -96,6 +198,22 @@ ModelImporter:
     4300020: Mesh11
     4300022: Mesh12
     4300024: Mesh13
+    4300026: Mesh14
+    4300028: Mesh15
+    4300030: Mesh16
+    4300032: Mesh17
+    4300034: Mesh18
+    4300036: Mesh19
+    4300038: Mesh20
+    4300040: Mesh21
+    4300042: Mesh22
+    4300044: Mesh23
+    4300046: Mesh24
+    4300048: Mesh25
+    4300050: Mesh26
+    4300052: Mesh27
+    4300054: Mesh28
+    4300056: Mesh29
     9500000: //RootNode
   materials:
     importMaterials: 1
