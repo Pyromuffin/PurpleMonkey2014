@@ -37,7 +37,7 @@ public class s_placer : MonoBehaviour {
             instantiatedToupe.transform.forward = direction;
 			foreach (Rigidbody rb in instantiatedToupe.GetComponentsInChildren<Rigidbody>()) {
 //				rb.velocity = transform.TransformDirection(new Vector3(direction.x,direction.y,direction.z + speed));
-				rb.velocity = direction*speed;
+				rb.velocity = (direction + Vector3.up )*speed;
 			}
 			audio.PlayOneShot(shootSound);
 //			instantiatedToupe.rigidbody.velocity = transform.TransformDirection(new Vector3(0,0,0));

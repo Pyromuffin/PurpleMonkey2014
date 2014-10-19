@@ -53,6 +53,7 @@ GameObject:
   - 23: {fileID: 2300004}
   - 114: {fileID: 11400004}
   - 54: {fileID: 5400004}
+  - 138: {fileID: 13800000}
   m_Layer: 10
   m_Name: Sticker2
   m_TagString: Untagged
@@ -265,6 +266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c84a27762ad801b47998314e8ce14508, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stickSound: {fileID: 0}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -276,6 +278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c84a27762ad801b47998314e8ce14508, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stickSound: {fileID: 0}
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -287,6 +290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c84a27762ad801b47998314e8ce14508, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stickSound: {fileID: 0}
 --- !u!135 &13500000
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -323,6 +327,16 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: .699999988
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!138 &13800000
+FixedJoint:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_ConnectedBody: {fileID: 5400002}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
 --- !u!160 &16000000
 InteractiveCloth:
   m_ObjectHideFlags: 1
