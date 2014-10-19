@@ -10,7 +10,7 @@ public class CoverageCalculator : MonoBehaviour {
     List<int> indices = new List<int>();
     List<int> baldSpotIndices = new List<int>();
     bool first = true;
-    public Text shameText;
+    public GameObject shameHolder, fateHolder;
     public Text percent;
     public Text shamePhrase;
     public int baldVertices;
@@ -113,9 +113,11 @@ public class CoverageCalculator : MonoBehaviour {
 
     public void reallyCalculateShame()
     {
+        SceneState.instance.stylingMode = true;
         Coverage();
         var ratio = (float)baldSpotIndices.Count / (float)baldVertices;
-        shameText.gameObject.SetActive(true);
+        shameHolder.SetActive(true);
+        fateHolder.SetActive(true);
         percent.text = ( (1-ratio) * 100).ToString() + "%";
         shamePhrase.gameObject.SetActive(true);
         shamePhrase.text = fates[Random.Range(0, fates.Length)];
