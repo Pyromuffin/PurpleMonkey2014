@@ -6,44 +6,40 @@ public class HairRemover : MonoBehaviour {
     public LayerMask hairLayer;
     public LayerMask headLayer;
     public float radius;
+    public GameObject sphere;
     public Collider[] hairs;
 
+
+
+    public void Start()
+    {
+        Balden();
+    }
 
 	// Use this for initialization
 	public void Balden () {
 	
+        //create random point on sphere. cast toward center, if hit, then sphere overlap and destroy
 
-        Vector3 randomScreenPoint = new Vector3(Random.Range(0,Camera.main.pixelWidth), Random.Range(0,Camera.main.pixelHeight),0);
+        Vector3 spherePoint = Random.onUnitSphere * .75f;
+        Vector3 centerDir = -spherePoint.normalized;
 
-        Ray randomRay = Camera.main.ScreenPointToRay(randomScreenPoint);
-
+        spherePoint += sphere.transform.position;
+        
         RaycastHit hit;
-        while (!Physics.Raycast(randomRay, out hit, 10000, headLayer))
+        while (!Physics.Raycast(spherePoint, centerDir, out hit, 1000, headLayer))
         {
+            spherePoint = Random.onUnitSphere * .75f;
+            centerDir = -spherePoint.normalized;
 
-             randomScreenPoint = new Vector3(Random.Range(0, Camera.main.pixelWidth), Random.Range(0, Camera.main.pixelHeight), 0);
-
-             randomRay = Camera.main.ScreenPointToRay(randomScreenPoint);
-           
+            spherePoint += sphere.transform.position;
         }
 
         hairs = Physics.OverlapSphere(hit.point, radius, hairLayer);
         foreach (var hair in hairs)
         {
             Destroy(hair.transform.gameObject);
-        }
-
-        //hairs = Physics.SphereCastAll(randomRay,radius, 10000, hairLayer);
-
-        /*
-        while (hairs.Length == 0)
-        {
-            randomScreenPoint = new Vector3(Random.Range(0, Camera.main.pixelWidth), Random.Range(0, Camera.main.pixelHeight), 0);
-            randomRay = Camera.main.ScreenPointToRay(randomScreenPoint);
-            hairs = Physics.SphereCastAll(randomRay, radius, 10000, hairLayer);
-        }
-        */
-       
+        } 
 
 	}
 	
