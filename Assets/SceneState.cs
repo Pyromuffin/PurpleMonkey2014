@@ -34,7 +34,7 @@ public class SceneState : MonoBehaviour {
         screenieNumber++;
         PlayerPrefs.SetInt("Screenie", screenieNumber);
         Application.CaptureScreenshot("Super Hairpiece Shameshot " + screenieNumber.ToString() +".png");
-        audio.PlayOneShot(screenieSound);
+        audio.PlayOneShot(screenieSound, 3);
     }
 
     public void setStyling(bool value)

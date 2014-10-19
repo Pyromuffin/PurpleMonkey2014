@@ -15,7 +15,7 @@ public class CoverageCalculator : MonoBehaviour {
     public Text shamePhrase;
     public int baldVertices;
     public float blinkTime;
-    string[] fates = new string[] { "Don't go outside today.", "Nice... try.", "meh.", "You're not fooling anyone with that", "Hat weather.", "At least your mom still likes you.", "Distressing!" };
+    string[] fates = new string[] { "Don't go outside today.", "Nice... try.", "meh.", "You're not fooling anyone with that", "Hat weather.", "At least your mom still likes you.", "Distressing!", "That's why she left you", "You're saving hundreds on shampoo.", "The colors don't even match.", "\"Seasoned.\"", "Maybe next time.", "Where is your body?", "Where did the mop go?", "Why does it smell like a horse?", "Nice shades, bro." };
     public AudioClip crying;
 
     void Start()
