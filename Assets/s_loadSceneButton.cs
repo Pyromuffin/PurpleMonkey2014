@@ -16,4 +16,8 @@ public class s_loadSceneButton : MonoBehaviour {
 	public void changeScene(string scene){
 		Application.LoadLevel (scene);
 	}
+
+	public void exitGame() {
+		Application.Quit();
+	}
 }
