@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class s_fancyButton : MonoBehaviour {
+public class s_loadSceneButton : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -13,7 +13,7 @@ public class s_fancyButton : MonoBehaviour {
 	
 	}
 
-	public void changeScene(int scene){
+	public void changeScene(string scene){
 		Application.LoadLevel (scene);
 	}
 }
