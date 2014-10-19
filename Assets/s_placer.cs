@@ -14,7 +14,7 @@ public class s_placer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetMouseButtonDown(0))
+		if (Input.GetMouseButtonDown(0) && !SceneState.instance.stylingMode)
 		{
 			RaycastHit hitInfo;
 			Vector3 origin = Camera.main.ScreenPointToRay(Input.mousePosition).origin;
