@@ -2,7 +2,8 @@
 using System.Collections;
 
 public class s_hairTapeStick : MonoBehaviour {
-
+	
+	public AudioClip stickSound;
 	// Use this for initialization
 	void Start () {
 
@@ -17,6 +18,7 @@ public class s_hairTapeStick : MonoBehaviour {
 	{
 		//Debug.LogError("collided");
 		rigidbody.isKinematic = true;
+		audio.PlayOneShot(stickSound);
 	}
 
 }
