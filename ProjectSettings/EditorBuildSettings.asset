@@ -13,3 +13,5 @@ EditorBuildSettings:
     path: Assets/Bathroom.unity
   - enabled: 1
     path: Assets/Cool Bathroom and giving up.unity
+  - enabled: 1
+    path: Assets/bathroom toupee.unity
